@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "a2xjCJk7gSSOWggCl+p/QicbZuILd4ppzRG6ZPZyz9839ugCeLJactVtu1C/FEpz19GfEz7EY8PCAiGgSEbqRA==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\Visual Studio 2019\\Projects\\Zoe13010.SQLLocalDB.GUI\\SQLLocalDBGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zoe1.3010\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

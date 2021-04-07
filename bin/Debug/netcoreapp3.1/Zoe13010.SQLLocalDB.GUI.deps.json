@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Zoe13010.SQLLocalDB.GUI/1.0.0": {
+        "runtime": {
+          "Zoe13010.SQLLocalDB.GUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zoe13010.SQLLocalDB.GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

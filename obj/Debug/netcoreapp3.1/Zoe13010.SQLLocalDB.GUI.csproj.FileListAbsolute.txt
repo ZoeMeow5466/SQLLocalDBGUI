@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.exe
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.deps.json
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.runtimeconfig.json
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.runtimeconfig.dev.json
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.dll
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\bin\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.pdb
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.csproj.GenerateResource.cache
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.AssemblyInfoInputs.cache
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.AssemblyInfo.cs
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.dll
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.pdb
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.genruntimeconfig.cache
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.MainForm.resources
+D:\Documents\Visual Studio 2019\Projects\Zoe13010.SQLLocalDB.GUI\obj\Debug\netcoreapp3.1\Zoe13010.SQLLocalDB.GUI.CreateInstance.resources
