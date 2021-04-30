@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLLocalDBGUI.Properties;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows.Forms;

@@ -457,7 +457,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = SQLLocalDBGUI.Properties.Resources.SSMS;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Microsoft SQL Local Database - GUI - ZoeMeow.3010";
