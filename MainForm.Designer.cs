@@ -29,7 +29,6 @@ namespace Zoe13010.SQLLocalDB.GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.cbInstance = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -75,10 +74,11 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.cbInstance.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbInstance.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbInstance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbInstance.FormattingEnabled = true;
             this.cbInstance.Location = new System.Drawing.Point(141, 35);
             this.cbInstance.Name = "cbInstance";
-            this.cbInstance.Size = new System.Drawing.Size(436, 28);
+            this.cbInstance.Size = new System.Drawing.Size(341, 28);
             this.cbInstance.TabIndex = 0;
             this.cbInstance.SelectedIndexChanged += new System.EventHandler(this.cbInstance_SelectedIndexChanged);
             // 
@@ -100,7 +100,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(606, 76);
+            this.groupBox1.Size = new System.Drawing.Size(511, 76);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detect SQLLocalDB:";
@@ -109,7 +109,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             this.btnDetectExecFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDetectExecFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetectExecFile.Location = new System.Drawing.Point(395, 28);
+            this.btnDetectExecFile.Location = new System.Drawing.Point(300, 28);
             this.btnDetectExecFile.Name = "btnDetectExecFile";
             this.btnDetectExecFile.Size = new System.Drawing.Size(182, 32);
             this.btnDetectExecFile.TabIndex = 2;
@@ -146,7 +146,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.groupBox3.Controls.Add(this.label1);
             this.groupBox3.Location = new System.Drawing.Point(12, 94);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(606, 382);
+            this.groupBox3.Size = new System.Drawing.Size(511, 382);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Select Instance:";
@@ -173,18 +173,20 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Location = new System.Drawing.Point(28, 111);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(549, 248);
+            this.groupBox2.Size = new System.Drawing.Size(454, 248);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Instance Info";
             // 
             // tbInstancePipeName
             // 
+            this.tbInstancePipeName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tbInstancePipeName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbInstancePipeName.Location = new System.Drawing.Point(191, 205);
+            this.tbInstancePipeName.Location = new System.Drawing.Point(191, 210);
             this.tbInstancePipeName.Name = "tbInstancePipeName";
             this.tbInstancePipeName.ReadOnly = true;
-            this.tbInstancePipeName.Size = new System.Drawing.Size(321, 27);
+            this.tbInstancePipeName.Size = new System.Drawing.Size(228, 27);
             this.tbInstancePipeName.TabIndex = 6;
             // 
             // label3
@@ -235,7 +237,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(31, 208);
+            this.label17.Location = new System.Drawing.Point(31, 210);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(141, 20);
             this.label17.TabIndex = 5;
@@ -326,7 +328,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             this.btnCreateInstance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCreateInstance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateInstance.Location = new System.Drawing.Point(236, 69);
+            this.btnCreateInstance.Location = new System.Drawing.Point(141, 69);
             this.btnCreateInstance.Name = "btnCreateInstance";
             this.btnCreateInstance.Size = new System.Drawing.Size(153, 32);
             this.btnCreateInstance.TabIndex = 2;
@@ -338,7 +340,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             this.btnLoadInstance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLoadInstance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoadInstance.Location = new System.Drawing.Point(395, 69);
+            this.btnLoadInstance.Location = new System.Drawing.Point(300, 69);
             this.btnLoadInstance.Name = "btnLoadInstance";
             this.btnLoadInstance.Size = new System.Drawing.Size(182, 32);
             this.btnLoadInstance.TabIndex = 2;
@@ -348,6 +350,8 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.btnRefreshInstanceInfo);
             this.groupBox4.Controls.Add(this.btnDelete);
             this.groupBox4.Controls.Add(this.btnOpenSqlCmd);
@@ -355,18 +359,17 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.groupBox4.Controls.Add(this.btnStart);
             this.groupBox4.Location = new System.Drawing.Point(12, 482);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(606, 79);
+            this.groupBox4.Size = new System.Drawing.Size(511, 110);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Instance Actions:";
             // 
             // btnRefreshInstanceInfo
             // 
-            this.btnRefreshInstanceInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRefreshInstanceInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRefreshInstanceInfo.Location = new System.Drawing.Point(415, 30);
+            this.btnRefreshInstanceInfo.Location = new System.Drawing.Point(28, 64);
             this.btnRefreshInstanceInfo.Name = "btnRefreshInstanceInfo";
-            this.btnRefreshInstanceInfo.Size = new System.Drawing.Size(162, 32);
+            this.btnRefreshInstanceInfo.Size = new System.Drawing.Size(454, 32);
             this.btnRefreshInstanceInfo.TabIndex = 2;
             this.btnRefreshInstanceInfo.Text = "Refresh Instance Info";
             this.btnRefreshInstanceInfo.UseVisualStyleBackColor = true;
@@ -374,11 +377,10 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnDelete
             // 
-            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Location = new System.Drawing.Point(178, 30);
+            this.btnDelete.Location = new System.Drawing.Point(194, 26);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(81, 32);
+            this.btnDelete.Size = new System.Drawing.Size(89, 32);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -386,11 +388,10 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnOpenSqlCmd
             // 
-            this.btnOpenSqlCmd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnOpenSqlCmd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpenSqlCmd.Location = new System.Drawing.Point(265, 30);
+            this.btnOpenSqlCmd.Location = new System.Drawing.Point(289, 26);
             this.btnOpenSqlCmd.Name = "btnOpenSqlCmd";
-            this.btnOpenSqlCmd.Size = new System.Drawing.Size(144, 32);
+            this.btnOpenSqlCmd.Size = new System.Drawing.Size(193, 32);
             this.btnOpenSqlCmd.TabIndex = 2;
             this.btnOpenSqlCmd.Text = "Open SqlCmd";
             this.btnOpenSqlCmd.UseVisualStyleBackColor = true;
@@ -398,11 +399,10 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnStop
             // 
-            this.btnStop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop.Location = new System.Drawing.Point(103, 30);
+            this.btnStop.Location = new System.Drawing.Point(111, 26);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(69, 32);
+            this.btnStop.Size = new System.Drawing.Size(77, 32);
             this.btnStop.TabIndex = 2;
             this.btnStop.Text = "Stop";
             this.btnStop.UseVisualStyleBackColor = true;
@@ -410,11 +410,10 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnStart
             // 
-            this.btnStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStart.Location = new System.Drawing.Point(28, 30);
+            this.btnStart.Location = new System.Drawing.Point(28, 26);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(69, 32);
+            this.btnStart.Size = new System.Drawing.Size(77, 32);
             this.btnStart.TabIndex = 2;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -422,9 +421,9 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnAbout
             // 
-            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbout.Location = new System.Drawing.Point(386, 567);
+            this.btnAbout.Location = new System.Drawing.Point(291, 602);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(113, 32);
             this.btnAbout.TabIndex = 2;
@@ -434,9 +433,9 @@ namespace Zoe13010.SQLLocalDB.GUI
             // 
             // btnClose
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(505, 567);
+            this.btnClose.Location = new System.Drawing.Point(410, 602);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(113, 32);
             this.btnClose.TabIndex = 2;
@@ -449,7 +448,7 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(630, 612);
+            this.ClientSize = new System.Drawing.Size(535, 646);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.groupBox4);
@@ -457,10 +456,10 @@ namespace Zoe13010.SQLLocalDB.GUI
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = SQLLocalDBGUI.Properties.Resources.SSMS;
+            this.Icon = global::SQLLocalDBGUI.Properties.Resources.SSMS;
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Microsoft SQL Local Database - GUI - ZoeMeow.3010";
+            this.Text = "Microsoft SQL Local Database - GUI";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
